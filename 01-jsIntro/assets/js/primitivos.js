@@ -17,4 +17,17 @@ console.log( typeof esMarvel );
 let edad = 17.5
 console.log( typeof edad );
 
-let superPoder
+// undefined
+let superPoder;
+console.log( typeof superPoder );
+
+// object
+let soyNull = null;
+console.log( typeof soyNull );
+
+// Symbol
+let symbol1 = Symbol();
+let symbol2 = Symbol();
+
+console.log( typeof symbol1 );
+console.log( symbol1 === symbol2);
